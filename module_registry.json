@@ -1,0 +1,132 @@
+{
+  "modules": [
+    {
+      "name": "morphic_adapter",
+      "description": "Adapts signals and configurations based on the current Morphic mode."
+    },
+    {
+      "name": "backtest_engine",
+      "description": "Provides a framework for backtesting trading strategies."
+    },
+    {
+      "name": "morphic_consistency_validator",
+      "description": "Validates the consistency of Morphic mode settings across different modules."
+    },
+    {
+      "name": "backtest_result_scorer",
+      "description": "Scores backtesting results based on various metrics."
+    },
+    {
+      "name": "morphic_governor",
+      "description": "Manages and enforces Morphic mode policies."
+    },
+    {
+      "name": "backtest_signal_router",
+      "description": "Routes signals generated during backtesting."
+    },
+    {
+      "name": "morphic_log_writer",
+      "description": "Writes Morphic mode-related events to a dedicated log."
+    },
+    {
+      "name": "confidence_threshold_optimizer",
+      "description": "Dynamically optimizes confidence thresholds for trading signals."
+    },
+    {
+      "name": "morphic_policy_viewer",
+      "description": "Provides a user interface for viewing Morphic mode policies."
+    },
+    {
+      "name": "contextual_backtest_loader",
+      "description": "Loads backtesting data with contextual information."
+    },
+    {
+      "name": "parameter_sweep_runner",
+      "description": "Automates the process of running backtests with different parameter combinations."
+    },
+    {
+      "name": "contextual_capital_distributor",
+      "description": "Distributes capital across different trading strategies based on contextual information."
+    },
+    {
+      "name": "persona_cooldown_manager",
+      "description": "Manages cooldown periods for different trading personas."
+    },
+    {
+      "name": "contextual_leverage_limiter",
+      "description": "Limits leverage based on contextual information."
+    },
+    {
+      "name": "persona_crossover_trigger",
+      "description": "Triggers a switch between trading personas based on crossover conditions."
+    },
+    {
+      "name": "contextual_signal_window",
+      "description": "Filters trading signals based on a contextual window of time."
+    },
+    {
+      "name": "drawdown_age_tracker",
+      "description": "Tracks the age of drawdowns to trigger risk mitigation measures."
+    },
+    {
+      "name": "personality_linked_sl_tp",
+      "description": "Adjusts stop-loss and take-profit levels based on the active trading persona."
+    },
+    {
+      "name": "equity_based_persona_shifter",
+      "description": "Shifts the trading persona based on the current account equity level."
+    },
+    {
+      "name": "redundant_signal_filter",
+      "description": "Filters out redundant trading signals."
+    },
+    {
+      "name": "execution_log_writer",
+      "description": "Logs execution-related events and data."
+    },
+    {
+      "name": "report_exporter",
+      "description": "Exports trading reports and performance metrics to various formats."
+    },
+    {
+      "name": "seasonal_strategy_bias",
+      "description": "Adjusts strategy parameters based on seasonal patterns."
+    },
+    {
+      "name": "execution_throttle_controller",
+      "description": "Limits the rate of trade execution to prevent API abuse and manage risk."
+    },
+    {
+      "name": "session_based_pnl_tracker",
+      "description": "Tracks profit and loss (PnL) on a session basis."
+    },
+    {
+      "name": "live_order_executor",
+      "description": "Executes trading orders on live exchanges."
+    },
+    {
+      "name": "signal_age_filter",
+      "description": "Filters trading signals based on their age."
+    },
+    {
+      "name": "meta_optimizer_controller",
+      "description": "Controls and orchestrates the optimization of various trading strategy parameters."
+    },
+    {
+      "name": "signal_publisher",
+      "description": "Publishes trading signals to the appropriate Redis channels."
+    },
+    {
+      "name": "mock_market_feed",
+      "description": "Provides a mock market data feed for testing and development purposes."
+    },
+    {
+      "name": "strategy_decay_rotator",
+      "description": "Dynamically rotates trading strategies based on their performance decay."
+    },
+    {
+      "name": "mock_order_executor",
+      "description": "Simulates order execution for testing and development purposes."
+    }
+  ]
+}
