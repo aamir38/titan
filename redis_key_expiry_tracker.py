@@ -67,7 +67,7 @@ async def monitor_key_expiries():
                 ttl = await redis.ttl(key)
                 global key_ttl_value
                 key_ttl_value.labels(key=key).set(ttl)
-                if ttl == -1 or ttl == None:
+                if ttl in (-1, None):
                     logger.warning(json.dumps({"module": "redis_key_expiry_tracker", "action": "Monitor Key Expiry", "status": "No Expiry", "key": key, "ttl": ttl}))
                     global ttl_violations_detected_total
                     ttl_violations_detected_total.inc()
